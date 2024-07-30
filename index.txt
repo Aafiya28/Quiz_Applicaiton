@@ -1,0 +1,5 @@
+# Followin steps to setup express
+
+1. npm i express
+2. npm i ejs
+3. create view folder
