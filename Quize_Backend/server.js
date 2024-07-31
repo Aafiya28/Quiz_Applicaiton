@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();// Creating a server
-// const quizee = require('./db/quizee.js');
+const quizze = require('./db/quizee.js');
 const PORT = 3000;
 
 app.set("view engine", 'ejs');
@@ -13,7 +13,7 @@ app.get( "/", (req, res) => {
 })
 
 app.get("/quize",(req, res) => {
-    res.render('quizee')
+    res.render(quizze)
 })
 
 app.listen( PORT, () => {

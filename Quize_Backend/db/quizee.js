@@ -85,4 +85,4 @@ const quize = {
     ]
 }
 
-module_exports = quize;
+module.exports = quize
